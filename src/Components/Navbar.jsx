@@ -42,7 +42,7 @@ const handleExit = () => {
     <div className='nav1-menu md:hidden flex h-auto w-[95vw] -ml-10 fixed z-10 bg-zinc-100 p-10  flex-col rounded-xl shadow-2xl border border-green-200 transform translate-x-[120%]'>
 
     <div onClick={handleExit} className='exit-icon text-4xl self-end text-green-500 '>
-    <i class="ri-close-circle-fill"></i>
+    <i className="ri-close-circle-fill"></i>
     </div>
 
 <div className=' flex flex-col gap-6 mt-16 ml-5 text-2xl font-[500]'>
@@ -68,7 +68,7 @@ const handleExit = () => {
       </div>
 
       <div onClick={handleClick} className='menu-icon flex md:hidden justify-end  w-[90%] text-[4vh]'>
-      <i class="ri-menu-3-line"></i>
+      <i className="ri-menu-3-line"></i>
       </div>
  
       <div className=' w-full md:flex hidden gap-10 justify-end px-20 font-[500] mt-5 text-xl'>

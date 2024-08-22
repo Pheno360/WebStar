@@ -12,7 +12,8 @@ import MobileApp from "../assets/MobileApp.png";
 const ServicesComponent = () => {
 
     const {pathname}=useLocation();
-    const id=pathname.slice(1)
+    const id=pathname.slice(pathname.length-1);
+    console.log(id);
 
     const data=[
         {
@@ -95,22 +96,22 @@ const ServicesComponent = () => {
 
           <h1 className="flex gap-4 font-[500] md:text-2xl text-sm items-center">
           <div className="icon bg-orange-400 px-2 py-1 rounded-full text-white ">
-          <i class="ri-code-s-slash-line"></i>
+          <i className="ri-code-s-slash-line"></i>
           </div>{service.point1}</h1>
 
           <h1 className="flex gap-4 font-[500] md:text-2xl text-sm items-center">
           <div className="icon bg-orange-400 px-2 py-1 rounded-full text-white ">
-          <i class="ri-code-s-slash-line"></i>
+          <i className="ri-code-s-slash-line"></i>
           </div>{service.point2}</h1>
 
           <h1 className="flex gap-4 font-[500] md:text-2xl text-sm items-center">
           <div className="icon bg-orange-400 px-2 py-1 rounded-full text-white ">
-          <i class="ri-code-s-slash-line"></i>
+          <i className="ri-code-s-slash-line"></i>
           </div>{service.point3}</h1>
 
           <h1 className="flex gap-4 font-[500] md:text-2xl text-sm items-center">
           <div className="icon bg-orange-400 px-2 py-1 rounded-full text-white ">
-          <i class="ri-code-s-slash-line"></i>
+          <i className="ri-code-s-slash-line"></i>
           </div>{service.point4}</h1>
 
           </div>

@@ -18,7 +18,7 @@ const Contact = () => {
         <div className='contact-container flex md:flex-nowrap flex-wrap justify-evenly  mt-14'>
 
         <div className='md:h-[40vh] h-[35vh] md:w-[20vw] w-[40vw] bg-green-200 rounded-2xl flex flex-col items-center justify-center '>
-          <div className='-mt-12 text-[10vh] '><i class="ri-phone-fill"></i></div>
+          <div className='-mt-12 text-[10vh] '><i className="ri-phone-fill"></i></div>
           <div className='h-0.5 w-[70%] bg-green-800'></div>
 
           <div className='font-[500] mt-4 flex flex-col gap-2 md:text-base text-sm'>
@@ -28,7 +28,7 @@ const Contact = () => {
         </div>
 
         <div className='md:h-[40vh] h-[35vh] md:w-[20vw] w-[44vw] bg-green-200 rounded-2xl flex flex-col items-center justify-center'>
-        <div className='-mb-2 text-[10vh] rotate-45 '><i class="ri-navigation-fill"></i></div>
+        <div className='-mb-2 text-[10vh] rotate-45 '><i className="ri-navigation-fill"></i></div>
           <div className='h-0.5 w-[70%] bg-green-800'></div>
           <div className="font-[500] mt-5 md:text-base text-[3.5vw]">
           <h1 >WebStar Technologies</h1>
@@ -40,7 +40,7 @@ const Contact = () => {
         </div>
 
         <div className='md:h-[40vh] h-[30vh]  md:w-[20vw] w-[60vw] bg-green-200 rounded-2xl flex flex-col items-center justify-center md:mt-0 mt-8'>
-        <div className='-mt-20 text-[10vh] '><i class="ri-message-2-fill"></i></div>
+        <div className='-mt-20 text-[10vh] '><i className="ri-message-2-fill"></i></div>
           <div className='h-0.5 w-[70%] bg-green-800'></div>
 
           <div className='font-[500] mt-6 flex flex-col gap-2 md:text-base text-[3.5vw]'>
